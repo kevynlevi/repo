@@ -1,94 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kevyn Levi - Desenvolvedor Web</title>
+  <title>Apresentação Pessoal</title>
   <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-
-  <!-- Barra de Navegação -->
+  <!-- Menu fixo -->
   <header class="navbar">
-    <nav class="container">
-      <h1 class="logo">Kevyn Levi</h1>
-      <ul class="nav-links">
-        <li><a href="#sobre">Sobre Mim</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1 class="logo">Meu Portfólio</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#welcome">Bem-vindo</a></li>
+          <li><a href="#about">Sobre Mim</a></li>
+          <li><a href="#services">Meus Serviços</a></li>
+          <li><a href="#projects">Projetos</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container hero-container">
+  <!-- Seção Bem-vindo -->
+  <section id="welcome" class="hero">
+    <div class="hero-container">
       <div class="hero-text">
-        <h1>Olá, sou <span class="highlight">Kevyn Levi</span></h1>
-        <p>Desenvolvedor Web apaixonado por criar soluções inovadoras com tecnologia.</p>
-        <a href="#sobre" class="btn">Saiba Mais</a>
+        <h1>Bem-vindo ao Meu Portfólio</h1>
+        <p>Explorando criatividade e tecnologia para construir soluções incríveis.</p>
       </div>
-      <div class="hero-image">
-        <img src="img/eu.jpg" alt="Kevyn Levi" class="profile-photo">
+    </div>
+  </section>
+  
+  <!-- Seção Sobre Mim -->
+  <section id="about" class="about">
+    <div class="container about-container">
+      <img src="img/eu.jpg" alt="Minha Foto" class="profile-pic">
+      <div class="about-text">
+        <h2>Sobre Mim</h2>
+        <p>
+          Olá! Sou um desenvolvedor apaixonado por tecnologia e inovação. 
+          Adoro transformar ideias em realidade por meio de código e design.
+          Com experiência em desenvolvimento web, estou sempre em busca de novos desafios.
+        </p>
       </div>
     </div>
   </section>
 
-  <!-- Sobre Mim -->
-  <section id="sobre" class="section about">
+  <!-- Seção Meus Serviços -->
+  <section id="services" class="services">
     <div class="container">
-      <h2>Sobre Mim</h2>
-      <div class="about-content">
-        <div class="about-text">
-          <p>Sou um desenvolvedor web focado em criar soluções de alta qualidade, com um olhar atento aos detalhes. Tenho experiência com diversas tecnologias, como JavaScript, React, Node.js e Python, e estou sempre em busca de novos desafios para evoluir como profissional.</p>
-          <a href="#projetos" class="btn btn-mais">Veja meus projetos</a>
-        </div>
-        <div class="about-image">
-          <img src="img/codigo.jpg" alt="Código" class="img-about">
-        </div>
+      <h2>Meus Serviços</h2>
+      <div class="services-grid">
+        <div class="service-card">Desenvolvimento Web</div>
+        <div class="service-card">Design Responsivo</div>
+        <div class="service-card">Otimização SEO</div>
       </div>
     </div>
   </section>
 
-  <!-- Projetos -->
-  <section id="projetos" class="section projects">
+  <!-- Seção Projetos -->
+  <section id="projects" class="projects">
     <div class="container">
-      <h2>Meus Projetos</h2>
-      <div class="projects-gallery">
-        <div class="project-card">
-          <h3>Projeto 1</h3>
-          <p>Descrição breve do projeto.</p>
-          <a href="#" class="btn">Ver mais</a>
-        </div>
-        <div class="project-card">
-          <h3>Projeto 2</h3>
-          <p>Descrição breve do projeto.</p>
-          <a href="#" class="btn">Ver mais</a>
-        </div>
-        <div class="project-card">
-          <h3>Projeto 3</h3>
-          <p>Descrição breve do projeto.</p>
-          <a href="#" class="btn">Ver mais</a>
-        </div>
+      <h2>Projetos</h2>
+      <div class="projects-grid">
+        <div class="project-card">Walter counter</div>
+        <div class="project-card">Reclamações</div>
+        <div class="project-card">Parkassistent</div>
       </div>
     </div>
   </section>
 
-  <!-- Contato -->
-  <section id="contato" class="section contact">
-    <div class="container">
-      <h2>Entre em Contato</h2>
-      <p>Email: kevynlevi@example.com</p>
-      <p>Telefone: (00) 1234-5678</p>
-      <a href="mailto:kevynlevi@example.com" class="btn">Enviar E-mail</a>
-    </div>
-  </section>
-
+  <!-- Rodapé -->
   <footer class="footer">
-    <div class="container">
-      <p>&copy; 2025 Kevyn Levi. Todos os direitos reservados.</p>
-    </div>
+    <p>&copy; 2025 Meu Nome. Todos os direitos reservados.</p>
   </footer>
-
 </body>
 </html>
